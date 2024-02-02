@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  ssr: true,
+  ssr: false,
   modules: ["@sidebase/nuxt-auth"],
   auth: {
     baseURL: "https://dummyjson.com/auth",
